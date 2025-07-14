@@ -1,0 +1,44 @@
+/* Стили для политики конфиденциальности */
+.privacy-content {
+            max-height: 70vh;
+            overflow-y: auto;
+            padding: 10px 15px;
+}
+
+.privacy-content h2 {
+            margin-bottom: 25px;
+            color: #2a5885;
+            text-align: center;
+}
+
+.privacy-content h3 {
+            margin: 25px 0 15px;
+            color: #2a5885;
+            font-size: 1.2em;
+        }
+
+.privacy-content p, .privacy-content ul {
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+.privacy-content ul {
+            padding-left: 25px;
+        }
+
+.privacy-content ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Стили для ссылки на политику в футере */
+.privacy-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #ff6b08;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+.privacy-link:hover {
+            text-decoration: underline;
+        }

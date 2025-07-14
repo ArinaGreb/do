@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессиональная разработка и внедрение 1С:Документооборот</title>
+    <link rel='stylesheet' href='css/style.css'>
+	<link rel='stylesheet' href='css/style-privacy-policy.css'>	
+	<link rel='stylesheet' href='css/style-services.css'>	
+	<link rel='stylesheet' href='css/style-contact-form.css'>
+</head>
+<!--Шапка сайта -->
+ <header>
+     <div class="container">
+         <div class="header-content">
+             <div class="logo-container">
+                 <a href="https://prorise.ru/" class="logo-link" itemprop="url">
+                     <img src="ЛОГО ПР.png" alt="ПРОЕКТНЫЕ РЕШЕНИЯ" class="logo-img" itemprop="logo">
+                 </a>
+             </div>
+             <div class="header-contacts">
+                 <div class="phone">
+									<a href='tel:+73422155455'>+7 (342) 2-155-455</a> 
+									<br>
+									<a href='mailto:email@gmail.com'>email@gmail.com</a>
+				 </div>
+                 <a href="#contact" class="callback-btn">Заказать звонок</a>
+             </div>
+         </div>
+     </div>
+ </header>
+<!--Тело сайта -->
+ <body>   
+    <section class="hero">
+        <div class="container">
+            <h1>Профессиональное внедрение 1С:Документооборот</h1>
+            <p>Полный цикл услуг по автоматизации бизнес-процессов на платформе 1С:Документооборот <br> от анализа до сопровождения</p>
+            <a href="#contact" class="btn">Оставить заявку</a>
+        </div>
+    </section>
+    
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Внедрение</h3>
+                    <p>Комплексное внедрение 1С:Документооборот с учетом специфики вашего бизнеса</p>
+                </div>
+                <div class="service-card">
+                    <h3>Документооборот</h3>
+                    <p>Настройка электронного документооборота для ускорения бизнес-процессов</p>
+                </div>
+                <div class="service-card">
+                    <h3>Интеграция</h3>
+                    <p>Интеграция 1С с другими системами и сервисами вашей компании</p>
+                </div>
+                <div class="service-card">
+                    <h3>Доработка</h3>
+                    <p>Адаптация 1С под уникальные бизнес-процессы вашей компании</p>
+                </div>
+                <div class="service-card">
+                    <h3>Обучение</h3>
+                    <p>Обучение ваших сотрудников работе с программой 1С:Документооборот</p>
+                </div>
+                <div class="service-card">
+                    <h3>Сопровождение</h3>
+                    <p>Техническая поддержка и сопровождение 1С после внедрения</p>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Почему выбирают нас? -->    
+<section class="advantages">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас?</h2>
+            <ul class="advantages-list">
+                <li>17+ лет опыта работы с платформой 1С</li>
+                <li>Сертифицированные специалисты</li>
+                <li>Индивидуальный подход к каждому клиенту</li>
+                <li>Гарантия качества выполняемых работ</li>
+                <li>Собственные методики внедрения, сокращающие сроки проекта</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="cases">
+        <div class="container">
+            <h2 class="section-title">Кейсы внедрения</h2>
+            <p style="text-align: center;">Мы успешно реализовали более 200 проектов по внедрению 1С в компаниях различных отраслей.</p>
+        </div>
+    </section>
+<!--Форма обратной связи -->
+<section id="contact" class="form-section">
+    <div class="container">
+		<form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+			<h2 class="section-title">Оставить заявку</h2>
+			<p class="contact-description">
+				Заполните форму, и мы свяжемся с вами в ближайшее время
+			</p>
+       
+            <!-- Ключ Web3Forms (замените на ваш реальный ключ) -->
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            <input type="hidden" name="subject" value="Новая заявка с сайта">
+            <input type="checkbox" name="botcheck" style="display: none;">
+
+            <div class='form-containers'>
+                <!-- ФИО -->
+                <div class='form-container'>
+                    <label for="name" class='form-label'>ФИО<label class='priority' for="message">*</label></label>
+                    <input type="text" id="name" name="name" required 
+                           class='form-input'>
+                </div>
+
+                <!-- Телефон -->
+                <div class='form-container'>
+                    <label for="phone" class='form-label'>Телефон<label class='priority' for="message">*</label></label>
+                    <input type="tel" id="phone" name="phone" required 
+                           class='form-input'
+                           placeholder="+7 (999) 123-45-67">
+                </div>
+                <!-- Email-->
+                <div class='form-container'>
+                    <label for="email" class='form-label'>Email<label class='priority' for="message">*</label></label>
+                    <input type="email" id="email" name="email" required 
+                           class='form-input'
+                           placeholder="your@email.com">
+                </div>
+
+                <!-- ИНН-->
+                <div class='form-container'>
+                    <label for="inn" class='form-label'>ИНН</label>
+                    <input type="text" id="inn" name="inn" 
+                           class='form-input'
+                           placeholder="Не обязательно">
+                </div>
+
+                <!-- Комментарий -->
+                <div class='form-container'>
+                    <label for="message" class='form-label' for="message">Комментарий</label>
+                    <textarea id="message" name="message" rows="4"
+                              class='form-input'
+                              placeholder="Ваше сообщение (не обязательно)"></textarea>
+                </div>
+                <!-- Кнопка -->
+        <div class='form-container'>
+          <center><button type="submit" class="btn">
+            Отправить заявку
+          </button> </center>
+        </div>
+            </div>
+        </form>
+    </div>
+</section>
+</body>  
+<!--Подвал сайта -->
+<footer>
+        <div class="container">
+            
+            <p> Адрес: г. Пермь ул.Малкова, 28</p>
+            <a href="privacy-policy.html" class="privacy-link privacy-link-modal">Политика обработки персональных данных</a>
+			<p>© 2025 Проектные Решения. Все права защищены.</p>
+        </div>
+</footer>
+
+
+	
+	
+</html>
+   

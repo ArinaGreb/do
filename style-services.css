@@ -1,0 +1,31 @@
+.services {
+            padding: 60px 0;
+        }
+.services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+.service-card {
+            border: 1px solid #e7e7e7;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: center;
+        }
+        
+.service-card h3 {
+            margin: 15px 0;
+            color: #2a5885;
+			transition: 0.5s;
+        }
+        
+.service-card:hover {
+	color:white;
+	background:#2a5885;
+	
+	h3{
+		color:white;
+	}
+	
+}		
