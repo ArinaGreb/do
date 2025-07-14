@@ -400,7 +400,7 @@
         </p>
         
         <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-            <!-- Ключ Web3Forms (замените на ваш реальный ключ) -->
+            <!-- Ключ Web3Forms -->
             <input type="hidden" name="access_key" value="">
             <input type="hidden" name="subject" value="Новая заявка с сайта">
             <input type="checkbox" name="botcheck" style="display: none;">
